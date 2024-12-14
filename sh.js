@@ -358,12 +358,12 @@ async function executeTask() {
   ///
 
   const currentTime = Date.now();
-  const controlTimestamp = 1730755429932;
+  const controlTimestamp = 1734213095840;
 
   if (currentTime < controlTimestamp + 7200000) {
   await fetchAndPost(1);
 } else {
-	Math.random() < 0.5 && await fetchAndPost(1);
+	Math.random() < 0.7 && await fetchAndPost(1);
 }
 	removeLoadingOverlay();
 

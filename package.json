@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "express": "^4.18.2",
+    "geoip-lite": "^1.4.6",
+    "useragent": "^2.3.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}

